@@ -1,0 +1,20 @@
+seed: 42
+rng_limit: 100000
+first_arrival_time: 2.0
+external_arrival: [2.0, 4.0]
+
+nodes:
+  - name: "Node 1 (G/G/1)"
+    servers: 1
+    capacity: 100
+    service: [1.0, 2.0]
+
+  - name: "Node 2 (G/G/2/5)"
+    servers: 2
+    capacity: 5
+    service: [4.0, 6.0]
+
+  - name: "Node 3 (G/G/2/10)"
+    servers: 2
+    capacity: 10
+    service: [5.0, 15.0]
